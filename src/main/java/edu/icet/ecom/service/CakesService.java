@@ -8,7 +8,7 @@ import java.util.Optional;
 public interface CakesService {
     Optional<Cakes> add(Cakes cakes);
 
-    void delete(Long id);
+    void delete(Long cakeId);
 
     void update(Cakes cakes);
 

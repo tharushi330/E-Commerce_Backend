@@ -29,8 +29,8 @@ public class CakesServiceImpl implements CakesService {
     }
 
     @Override
-    public void delete(Long id) {
-        repository.deleteById(id);
+    public void delete(Long cakeId) {
+        repository.deleteById(cakeId);
     }
 
     @Override
@@ -56,5 +56,6 @@ public class CakesServiceImpl implements CakesService {
         List<Cakes> arrayList = new ArrayList<>();
         entity.forEach(e -> arrayList.add(mapper.map(e, Cakes.class)));
         return arrayList;
+
     }
 }

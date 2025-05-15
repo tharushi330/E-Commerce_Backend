@@ -23,8 +23,8 @@ public class CakesController {
     }
 
     @DeleteMapping("/delete")
-    public void delete(@RequestParam("id")  Long id) {
-        cakesService.delete(id);
+    public void delete(@RequestParam("cakeId")  Long cakeId) {
+        cakesService.delete(cakeId);
     }
 
     @PutMapping("/update")
