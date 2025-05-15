@@ -1,4 +1,7 @@
 package edu.icet.ecom.repository;
 
-public interface GiftPackRepository {
+import edu.icet.ecom.entity.GiftPackEntity;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface GiftPackRepository extends JpaRepository<GiftPackEntity, Long> {
 }

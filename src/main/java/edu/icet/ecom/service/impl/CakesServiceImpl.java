@@ -1,4 +1,10 @@
 package edu.icet.ecom.service.impl;
 
-public class CakesServiceImpl {
+import edu.icet.ecom.service.CakesService;
+import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
+
+@Service
+@RequiredArgsConstructor
+public class CakesServiceImpl implements CakesService {
 }

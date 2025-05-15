@@ -1,4 +1,7 @@
 package edu.icet.ecom.repository;
 
-public interface FlowersRepository {
+import edu.icet.ecom.entity.FlowerEntity;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface FlowersRepository extends JpaRepository<FlowerEntity, Long> {
 }
