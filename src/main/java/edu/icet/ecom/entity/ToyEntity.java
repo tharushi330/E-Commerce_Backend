@@ -16,6 +16,7 @@ public class ToyEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long toyId;
+    private String name;
     private String productCode;
     private Double price;
     private String description;

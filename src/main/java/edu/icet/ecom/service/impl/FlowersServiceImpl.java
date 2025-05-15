@@ -1,10 +1,7 @@
 package edu.icet.ecom.service.impl;
 
-import edu.icet.ecom.dto.Cakes;
 import edu.icet.ecom.dto.Flowers;
-import edu.icet.ecom.entity.CakeEntity;
 import edu.icet.ecom.entity.FlowerEntity;
-import edu.icet.ecom.repository.CakesRepository;
 import edu.icet.ecom.repository.FlowersRepository;
 import edu.icet.ecom.service.FlowersService;
 import jakarta.persistence.EntityNotFoundException;

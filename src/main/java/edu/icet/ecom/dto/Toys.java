@@ -11,6 +11,7 @@ import lombok.ToString;
 @ToString
 public class Toys {
     private Long toyId;
+    private String name;
     private String productCode;
     private Double price;
     private String description;

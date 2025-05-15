@@ -1,10 +1,7 @@
 package edu.icet.ecom.service.impl;
 
-import edu.icet.ecom.dto.Flowers;
 import edu.icet.ecom.dto.GiftPack;
-import edu.icet.ecom.entity.FlowerEntity;
 import edu.icet.ecom.entity.GiftPackEntity;
-import edu.icet.ecom.repository.FlowersRepository;
 import edu.icet.ecom.repository.GiftPackRepository;
 import edu.icet.ecom.service.GiftPackService;
 import jakarta.persistence.EntityNotFoundException;
