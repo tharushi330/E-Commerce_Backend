@@ -16,6 +16,7 @@ public class GiftPackEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long giftPackId;
+    private String name;
     private String productCode;
     private String description;
     private String imageURL;

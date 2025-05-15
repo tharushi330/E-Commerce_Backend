@@ -11,6 +11,7 @@ import lombok.ToString;
 @ToString
 public class GiftPack {
     private Long giftPackId;
+    private String name;
     private String productCode;
     private String description;
     private String imageURL;
